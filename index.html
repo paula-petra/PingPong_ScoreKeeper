@@ -4,23 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Score Keeper</title>
 </head>
 <body>
-    <small>Ping Pong Score Keeper</small>
-    <h1><span class="scores" id="player1">0</span> to <span class="scores" id="player2">0</span></h1>  
-    <small>Use the buttons below to keep score</small>
-    <form action="">
-        <label for="maxScore">Playing to</label>
-        <select name="" id="maxScore">
-            <option id="3" value="3">3</option>
-            <option id="3" value="4">4</option>
-            <option id="3" value="5">5</option>
-        </select>
-        <button class="scoreBtn" id="pl1Btn">+1 Player One</button>
-        <button class="scoreBtn" id="pl2Btn">+1 Player Two</button>
-        <button id="resetBtn">Reset</button>
-    </form>  
+    <div class="container">
+
+        <div class="about">
+            <img src="lisa-keffer-i0kB5B9J8Ds-unsplash.jpg" alt="">
+            <small>Ping Pong Score Keeper</small>
+        </div>
+
+        <div class="game">
+            <h1><span class="scores" id="player1">0</span> to <span class="scores" id="player2">0</span></h1>  
+            <small>Use the buttons below to keep score</small>
+            <form action="">
+                <div class="score">
+                    <label for="maxScore">Playing to</label>
+                    <select name="" id="maxScore">
+                        <option id="3" value="3">3</option>
+                        <option id="3" value="4">4</option>
+                        <option id="3" value="5">5</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="buttons">
+            <button class="scoreBtn" id="pl1Btn">+1 Player One</button>
+            <button class="scoreBtn" id="pl2Btn">+1 Player Two</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        </form>
+
+    </div>  
 </body>
 
 <script src="app.js"></script>

@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    width: 30%;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+}
+
+.about{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.about img{
+    width: 100%;
+}
+
+.about small{
+    padding: 10px;
+}
+
+.game{
+    margin: 15px 15px 0;
+}
+
+.score select{
+    width: 15%;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buttons>*{
+    width: calc(100%/3);
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    color: white;
+}
+
+#pl1Btn{
+    background-color: #51f0db;
+}
+
+#pl2Btn{
+    background-color: #51e3f0;
+}
