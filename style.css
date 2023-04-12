@@ -56,3 +56,11 @@ body{
 #resetBtn{
     background-color: #ed3232;
 }
+
+.winner{
+    color: green;
+}
+
+.loser{
+    color: red;
+}
