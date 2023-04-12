@@ -42,12 +42,17 @@ body{
     height: 30px;
     border: 1px solid rgba(128, 128, 128, 0.3);
     color: white;
+    cursor: pointer;
 }
 
 #pl1Btn{
-    background-color: #51f0db;
+    background-color: rgb(76, 237, 119);
 }
 
 #pl2Btn{
-    background-color: #51e3f0;
+    background-color: rgb(50, 203, 237);
+}
+
+#resetBtn{
+    background-color: #ed3232;
 }
